@@ -1,0 +1,51 @@
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon/site.webmanifest">
+<!-- Meta Data -->
+
+<meta content="" name="keywords" />
+<meta content="Scale Up CTO: Freelance consultancy, technology strategy and non-exec resource" name="description" />
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Poppins:200,400" rel="stylesheet"> -->
+
+<title>Scale Up CTO | {{ page.title }}</title>
+
+
+<meta property="og:url"                content="{{site.url}}{{page.url}}" />
+<meta property="og:type"               content="website" />
+{% if page.title %}
+<meta property="og:title"              content="Scale Up CTO | {{ page.title }}" />
+{% else %}
+<meta property="og:title"              content="Scale Up CTO" />
+{% endif %}
+{% if page.description %}
+<meta property="og:description"        content="{{ page.description }}" />
+{% else %}
+<meta property="og:description"        content="On-demand technology consultancy, strategy and non-exec resource" />
+{% endif %}
+{% if page.image %}
+<meta property="og:image"              content="{{site.url}}{{ page.image }}" />
+{% else %}
+<meta property="og:image"              content="{{site.url}}/img/logo-light.svg" />
+{% endif %}
+
+
+{% if jekyll.environment == "production" %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-508T0YEJZ6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-508T0YEJZ6');
+</script>
+{% endif %}

@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include header.html %}
+        <link rel="stylesheet" href="/css/site.css">
+    </head>
+    <body>
+        {% include nav.html %}
+
+        <div class="text-center mt-2">
+            <img src="/img/logo-light.svg" alt="Scale up CTO logo" height="200px"> <img src="/img/me.jpg" class="me" height="180px" alt="Picture of the Scale Up CTO">
+        </div>
+
+        <main> 
+            <div class="container">
+                {{ content }}
+            </div>
+        </main>
+
+        {% include footer.html %}
+
+    </body>
+</html>
