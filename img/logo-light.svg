@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="430px" height="200px" viewBox="0 0 430 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(0.000000, 0.037476)">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="430" height="199"></rect>
+            <polygon id="Rectangle" fill-opacity="0.480658258" fill="#FFDE74" points="199 28.0374756 199 170.962524 56.0749512 170.962524"></polygon>
+            <polygon id="Rectangle" fill-opacity="0.480658258" fill="#FFDE74" points="112.074951 79.9625244 112.074951 170.962524 21.0749512 170.962524"></polygon>
+            <text id="ScaleUp-CTO" font-family="Helvetica-Light, Helvetica" font-size="44" font-weight="300" fill="#4A4A4A">
+                <tspan x="215" y="117.962524">ScaleUp</tspan>
+                <tspan x="383.696" y="117.962524" font-family="Helvetica" font-weight="normal"></tspan>
+                <tspan x="215" y="170.962524" font-family="Helvetica-Bold, Helvetica" font-weight="bold">CTO</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
