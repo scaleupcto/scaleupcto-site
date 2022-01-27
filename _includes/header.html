@@ -16,7 +16,11 @@
 
 <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Poppins:200,400" rel="stylesheet"> -->
 
+{% if page.title %}
 <title>Scale Up CTO | {{ page.title }}</title>
+{% else %}
+<title>Scale Up CTO | On-demand technology consultancy, strategy and non-exec resource for organisations sized 1 to 1000 people</title>
+{% endif %}
 
 
 <meta property="og:url"                content="{{site.url}}{{page.url}}" />
